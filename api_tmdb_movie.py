@@ -60,7 +60,7 @@ import csv
 #imdb_page = 'https://www.imdb.com/title/{key}'.format(key=imdb_movie_id)
 #print("Imdb Website:", imdb_page)
 
-pages = [str(i) for i in range(1000, 5000)]
+pages = [str(i) for i in range(578803, 591268)]
 
 with open('mycsv.csv', 'w', newline='', encoding="utf-8") as f:
     fieldnames = ['Id Movie', 'Title', 'Poster', 'Description', 'Genres' , 'Budget', 'Revenue', 'Release Date', 'Runtime', 'Tagline', 'Status', 'Imdb Website', 'Production Company', 'Vote Average', 'Vote Count', 'Backdrop Image']
